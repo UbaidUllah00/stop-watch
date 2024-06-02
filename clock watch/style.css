@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: sans-serif; */
+}
+
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #031323;
+
+}
+.Clock{
+    position: absolute;
+    margin:  auto;
+    top: 0px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 650px;
+    height: 350px;
+    background: rgba(255, 255, 255 , 0.05);
+    text-align: center;
+    /* margin-top: ; */
+    overflow: hidden;
+    z-index: 10;
+    backdrop-filter: blue(15px);
+    border-top: 1px solid rgb(255, 255, 255 , 0.5);
+    border-left:1px solid rgb(255, 255, 255 , 0.2);
+    /* border-right: 1px solid rgb(255, 255, 255 , 0.2);
+    border-bottom: 1px solid rgb(255, 255, 255 , 0.2); */
+    box-shadow: 10px 14px 12px 30px rgba(236, 231, 231, 0.1);
+    display: flex;
+    justify-content: center;
+    font-family: 'Quicksand' , 'Helvetica', Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+    
+.inside{
+    position: absolute;
+    margin:  auto;
+    top: 0px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 500px;
+    height: 250px;
+    backdrop-filter: blue(15px);
+    border-top: 1px solid rgb(255, 255, 255 , 0.2);
+    border-left:1px solid rgb(255, 255, 255 , 0.2);
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    margin-top: 40px;
+    margin: auto;
+    height: auto;
+    text-align: center;
+}
+.time{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 22px;
+}
+span#hour{
+    text-align: center;
+    /* font-size: 22px; */
+}
+span#min{
+    text-align: center;
+    /* font-size: 22px; */
+}
+span#sec{
+    text-align: center;
+    /* font-size: 22px; */
+}
+span#mSec{
+    text-align: center;
+    /* font-size: 22px;  */
+}
+
+.btns{
+    /* width: 60px;
+    height: 20px; */
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.bt1 button{
+    width: 80px;
+    height: 30px;
+    background: #031323;
+    color: #ffffff;
+    border-top: 1px solid rgba(0,0,0,0.05);
+    border-left: 1px solid rgba(0,0,0,0.05);
+    border-right: 1px solid rgba(0,0,0,0.05);
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+.bt1 button:hover{
+ background: #ffffff;
+ color: #031323;
+}
+
+.anchor{
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.anchor span button {
+    background: #031323;
+    color: #ffffff;
+    width: 80px;
+    height: 35px;
+    border-top: 1px solid rgba(0,0,0,0.05);
+    border-left: 1px solid rgba(0,0,0,0.05);
+    border-right: 1px solid rgba(0,0,0,0.05);
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}

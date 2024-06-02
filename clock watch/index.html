@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+
+    <div class="Clock">
+        <div class="inside">
+            <div class="content">
+                <p class="anchor">
+                    <span><a href="./timer.html"><button>Timer</button></a></span>
+                    <span><a href="./index.html"><button>Stop Watch</button></a></span>
+                </p>
+                <!-- time -->
+                <p class="time">
+                    <span id="hour">00</span>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span id="min">00</span>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span id="sec">00</span>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span id="mSec">00</span>
+                    
+                    
+            
+                </p>
+                <p class="btns">
+                    <span class="bt1" id="disable"><button onclick="startWatch()"  >Start</button></span>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span class="bt1"><button onclick="stopWatch()">Stop</button></span>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span class="bt1"><button onclick="resetWatch()">Reset</button></span>
+                </p>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="./app.js"></script>
+</html>
