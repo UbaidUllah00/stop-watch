@@ -43,9 +43,19 @@ function start() {
 function startWatch(){
     interval = setInterval(start,10)
     // var dis =   document.ElementById("none").disabled = true;/
+
+    
+
+
 }
 
 function stopWatch(){
+    clearInterval(interval)
+
+   
+}
+
+function resetWatch() {
     clearInterval(interval)
 
     hourHeading.innerHTML = "00";
@@ -59,6 +69,4 @@ function stopWatch(){
     mSec = 0;
 }
 
-function resetWatch() {
-    clearInterval(interval)
-}
+
